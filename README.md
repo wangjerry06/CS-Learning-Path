@@ -8,7 +8,7 @@
 
 ```
 CS-Learning-Path/
-├── 9.21/                    # 按「月.日」归档，一天一个目录
+├── 2026-09-21/              # 按「年-月-日」归档，一天一个目录
 │   └── leetcode1768.cpp     # LeetCode 1768. Merge Strings Alternately
 ├── .vscode/
 │   └── tasks.json           # VS Code 构建任务（clang++）
@@ -18,14 +18,14 @@ CS-Learning-Path/
 
 **约定**
 
-- 一天一个文件夹，用 `M.D` 命名（如 `9.21`）
+- 一天一个文件夹，用 `YYYY-MM-DD` 命名（如 `2026-09-21`）
 - 文件名用题目形式：`leetcode<题号>.cpp`
 - 只提交**源码和文档**：`.gitignore` 用白名单，可执行文件、`.o`、`.dSYM`、`.DS_Store` 都不会进版本库
 
 ## 编译与运行
 
 ```bash
-cd 9.21
+cd 2026-09-21
 clang++ -std=c++17 -Wall -Wextra -g leetcode1768.cpp -o leetcode1768
 ./leetcode1768                 # 然后在终端里手动输入
 printf 'ab\ncde\n' | ./leetcode1768   # 或者管道喂输入
@@ -53,12 +53,12 @@ if (!(cin >> word1 >> word2)) {
 
 | 日期 | 题目 | 要点 |
 |---|---|---|
-| 9.21 | [1768. Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) | 字符串交替拼接；`push_back` 追加、引用传参免拷贝、`cin` 失败检查 |
+| 2026-09-21 | [1768. Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) | 字符串交替拼接；`push_back` 追加、引用传参免拷贝、`cin` 失败检查 |
 
 ## 提交习惯
 
 每天一次提交，message 带上日期和题号：
 
 ```
-9.21: LeetCode 1768 交替合并字符串
+2026-09-21: LeetCode 1768 交替合并字符串
 ```
