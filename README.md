@@ -9,7 +9,8 @@
 ```
 CS-Learning-Path/
 ├── 2026-09-21/              # 按「年-月-日」归档，一天一个目录
-│   └── leetcode1768.cpp     # LeetCode 1768. Merge Strings Alternately
+│   ├── leetcode1768.cpp     # LeetCode 1768. Merge Strings Alternately
+│   └── 2026-09-21.md        # 当天笔记
 ├── .vscode/
 │   └── tasks.json           # VS Code 构建任务（clang++）
 ├── .gitignore
@@ -22,13 +23,11 @@ CS-Learning-Path/
 - 文件名用题目形式：`leetcode<题号>.cpp`
 - 只提交**源码和文档**：`.gitignore` 用白名单，可执行文件、`.o`、`.dSYM`、`.DS_Store` 都不会进版本库
 
-
-
 ## 进度
 
-| 日期 | 题目 | 要点 |
-|---|---|---|
-| 2026-09-21 | [1768. Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) | 字符串交替拼接；`push_back` 追加、引用传参免拷贝、`cin` 失败检查 |
+| 日期 | 题目 |
+|---|---|
+| 2026-09-21 | [1768. Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) |
 
 ## 提交习惯
 
