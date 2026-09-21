@@ -1,0 +1,35 @@
+# 白名单策略：默认忽略所有文件，只放行源码和文档。
+# 好处是编译产物（可执行文件、.o、.dSYM）天生进不来，不用每天记得清理。
+
+# 1) 先忽略一切
+*
+
+# 2) 目录必须放行，否则 git 不会进去找文件
+!*/
+
+# 3) 放行需要版本控制的类型
+!.gitignore
+!.gitattributes
+!*.c
+!*.cpp
+!*.cc
+!*.h
+!*.hpp
+!*.md
+!*.txt
+!*.json
+!*.yml
+!*.yaml
+!*.sh
+!*.py
+!*.java
+!Makefile
+!CMakeLists.txt
+!*.cmake
+
+# 4) 显式挡掉这些（即使上面的规则放行了）——编译产物和系统垃圾
+*.dSYM/
+**/*.dSYM/**
+.DS_Store
+**/.DS_Store
+.vscode/settings.json
