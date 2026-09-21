@@ -23,6 +23,15 @@ CS-Learning-Path/
 - 文件名用题目形式：`leetcode<题号>.cpp`
 - 只提交**源码和文档**：`.gitignore` 用白名单，可执行文件、`.o`、`.dSYM`、`.DS_Store` 都不会进版本库
 
+## 编译与运行
+
+```bash
+cd 2026-09-21
+clang++ -std=c++17 -Wall -Wextra -g leetcode1768.cpp -o leetcode1768
+./leetcode1768                        # 然后在终端里手动输入
+printf 'ab\ncde\n' | ./leetcode1768   # 或者管道喂输入
+```
+
 ## 进度
 
 | 日期 | 题目 |
