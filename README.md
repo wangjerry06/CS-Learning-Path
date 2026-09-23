@@ -16,6 +16,9 @@ CS-Learning-Path/
 │   ├── leetcode389.cpp      # LeetCode 389. Find the Difference
 │   ├── leetcode459.cpp      # LeetCode 459. Repeated Substring Pattern
 │   └── 2026-09-22.md        # 当天笔记
+├── 2026-09-23/
+│   ├── leetcode283.cpp      # LeetCode 283. Move Zeroes
+│   └── 2026-09-23.md        # 当天笔记
 ├── .vscode/
 │   └── tasks.json           # VS Code 构建任务（clang++）
 ├── .gitignore
@@ -43,6 +46,7 @@ printf 'ab\ncde\n' | ./leetcode1768   # 或者管道喂输入
 |---|---|
 | 2026-09-21 | [1768. Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) |
 | 2026-09-22 | [28. Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)、[389. Find the Difference](https://leetcode.com/problems/find-the-difference/)、[459. Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/) |
+| 2026-09-23 | [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/) |
 
 ## 提交习惯
 
