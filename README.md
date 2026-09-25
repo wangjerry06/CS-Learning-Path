@@ -23,6 +23,9 @@ CS-Learning-Path/
 │   ├── leetcode1502.cpp     # LeetCode 1502. Can Make Arithmetic Progression From Sequence
 │   ├── leetcode1822.cpp     # LeetCode 1822. Sign of the Product of an Array
 │   └── 2026-09-24.md        # 当天笔记
+├── 2026-09-25/
+│   ├── leetcode896.cpp      # LeetCode 896. Monotonic Array
+│   └── 2026.09.25.md        # 当天笔记
 ├── .vscode/
 │   └── tasks.json           # VS Code 构建任务（clang++）
 ├── .gitignore
@@ -52,6 +55,7 @@ printf 'ab\ncde\n' | ./leetcode1768   # 或者管道喂输入
 | 2026-09-22 | [28. Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)、[389. Find the Difference](https://leetcode.com/problems/find-the-difference/)、[459. Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/) |
 | 2026-09-23 | [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/) |
 | 2026-09-24 | [1502. Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/)、[1822. Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/) |
+| 2026-09-25 | [896. Monotonic Array](https://leetcode.com/problems/monotonic-array/) |
 
 ## 提交习惯
 
