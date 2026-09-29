@@ -42,6 +42,13 @@ CS-Learning-Path/
 │       ├── leetcode142.cpp  # LeetCode 142. Linked List Cycle II
 │       ├── leetcode206.cpp  # LeetCode 206. Reverse Linked List
 │       └── leetcode876.cpp  # LeetCode 876. Middle of the Linked List
+├── 2026-09-29/
+│   ├── 2026-09-29.md        # 当天笔记
+│   └── 链表十大算法第二天/
+│       ├── 链表十大经典算法_副本.md  # 专题手册（副本）
+│       ├── leetcode21.cpp       # LeetCode 21. Merge Two Sorted Lists
+│       ├── leetcode21_raii.cpp  # 21 的 RAII 版（List 管家类 + 自动析构）
+│       └── leetcode23.cpp       # LeetCode 23. Merge k Sorted Lists
 ├── .vscode/
 │   └── tasks.json           # VS Code 构建任务（clang++）
 ├── .gitignore
@@ -75,6 +82,7 @@ printf 'ab\ncde\n' | ./leetcode1768   # 或者管道喂输入
 | 2026-09-26 | [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/) |
 | 2026-09-27 | [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word/)、[206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) |
 | 2026-09-28 | [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)、[142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)、[876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)、[206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)（专题复写） |
+| 2026-09-29 | [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)、[23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) |
 
 ## 提交习惯
 
