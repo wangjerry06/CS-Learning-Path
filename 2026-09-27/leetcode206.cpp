@@ -48,7 +48,7 @@ int main(){
         std::cout<<p->value<<' ';
     }
     std::cout<<'\n';
-    clearList(list);
+    clearList(res);
     //清除内存
     return 0;
 }
