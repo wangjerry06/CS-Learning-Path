@@ -34,6 +34,14 @@ CS-Learning-Path/
 │   ├── leetcode58.cpp       # LeetCode 58. Length of Last Word
 │   ├── leetcode206.cpp      # LeetCode 206. Reverse Linked List
 │   └── 2026-09-27.md        # 当天笔记
+├── 2026-09-28/
+│   ├── 2026-09-28.md        # 当天笔记
+│   └── 链表十大经典算法/      # 按专题建子目录
+│       ├── 链表十大经典算法.md  # 专题闯关手册（十题清单）
+│       ├── leetcode141.cpp  # LeetCode 141. Linked List Cycle
+│       ├── leetcode142.cpp  # LeetCode 142. Linked List Cycle II
+│       ├── leetcode206.cpp  # LeetCode 206. Reverse Linked List
+│       └── leetcode876.cpp  # LeetCode 876. Middle of the Linked List
 ├── .vscode/
 │   └── tasks.json           # VS Code 构建任务（clang++）
 ├── .gitignore
@@ -66,6 +74,7 @@ printf 'ab\ncde\n' | ./leetcode1768   # 或者管道喂输入
 | 2026-09-25 | [896. Monotonic Array](https://leetcode.com/problems/monotonic-array/) |
 | 2026-09-26 | [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/) |
 | 2026-09-27 | [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word/)、[206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) |
+| 2026-09-28 | [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)、[142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)、[876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)、[206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)（专题复写） |
 
 ## 提交习惯
 
