@@ -56,6 +56,12 @@ CS-Learning-Path/
 │       ├── leetcode19.cpp       # LeetCode 19. Remove Nth Node From End of List
 │       ├── leetcode160.cpp      # LeetCode 160. Intersection of Two Linked Lists
 │       └── leetcode160_fixed.cpp  # 160 修复版（带 FIX 注释对照）
+├── 2026-10-01/
+│   ├── 2026-10-01.md        # 当天笔记
+│   └── 2026-10-01/
+│       ├── 链表十大经典算法_副本3.md  # 专题手册（副本 3，十题全部 Done）
+│       ├── leetcode234.cpp  # LeetCode 234. Palindrome Linked List
+│       └── leetcode25.cpp   # LeetCode 25. Reverse Nodes in k-Group
 ├── .vscode/
 │   └── tasks.json           # VS Code 构建任务（clang++）
 ├── .gitignore
@@ -91,6 +97,7 @@ printf 'ab\ncde\n' | ./leetcode1768   # 或者管道喂输入
 | 2026-09-28 | [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)、[142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)、[876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)、[206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)（专题复写） |
 | 2026-09-29 | [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)、[23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) |
 | 2026-09-30 | [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)、[160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) |
+| 2026-10-01 | [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)、[25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) |
 
 ## 提交习惯
 
