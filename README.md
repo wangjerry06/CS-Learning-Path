@@ -62,6 +62,10 @@ CS-Learning-Path/
 │       ├── 链表十大经典算法_副本3.md  # 专题手册（副本 3，十题全部 Done）
 │       ├── leetcode234.cpp  # LeetCode 234. Palindrome Linked List
 │       └── leetcode25.cpp   # LeetCode 25. Reverse Nodes in k-Group
+├── 2026-10-02/
+│   ├── leetcode682.cpp      # LeetCode 682. Baseball Game
+│   ├── leetcode709.cpp      # LeetCode 709. To Lower Case
+│   └── 2026.10.02.md        # 当天笔记
 ├── .vscode/
 │   └── tasks.json           # VS Code 构建任务（clang++）
 ├── .gitignore
@@ -98,6 +102,7 @@ printf 'ab\ncde\n' | ./leetcode1768   # 或者管道喂输入
 | 2026-09-29 | [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)、[23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) |
 | 2026-09-30 | [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)、[160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) |
 | 2026-10-01 | [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)、[25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) |
+| 2026-10-02 | [682. Baseball Game](https://leetcode.com/problems/baseball-game/)、[709. To Lower Case](https://leetcode.com/problems/to-lower-case/) |
 
 ## 提交习惯
 
