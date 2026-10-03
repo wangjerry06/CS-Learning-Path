@@ -66,6 +66,10 @@ CS-Learning-Path/
 │   ├── leetcode682.cpp      # LeetCode 682. Baseball Game
 │   ├── leetcode709.cpp      # LeetCode 709. To Lower Case
 │   └── 2026.10.02.md        # 当天笔记
+├── 2026-10-03/
+│   ├── leetcode1275.cpp     # LeetCode 1275. Find Winner on a Tic Tac Toe Game
+│   ├── leetcode657.cpp      # LeetCode 657. Robot Return to Origin
+│   └── 2026.10.03.md        # 当天笔记
 ├── .vscode/
 │   └── tasks.json           # VS Code 构建任务（clang++）
 ├── .gitignore
@@ -103,6 +107,7 @@ printf 'ab\ncde\n' | ./leetcode1768   # 或者管道喂输入
 | 2026-09-30 | [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)、[160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) |
 | 2026-10-01 | [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)、[25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) |
 | 2026-10-02 | [682. Baseball Game](https://leetcode.com/problems/baseball-game/)、[709. To Lower Case](https://leetcode.com/problems/to-lower-case/) |
+| 2026-10-03 | [1275. Find Winner on a Tic Tac Toe Game](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/)、[657. Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/) |
 
 ## 提交习惯
 
