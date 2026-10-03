@@ -1,6 +1,7 @@
 //To Lower case
 #include<iostream>
 #include<vector>
+#include<string>
 class Solution{
     public:
     std::string ThelowerCase(std::string s){

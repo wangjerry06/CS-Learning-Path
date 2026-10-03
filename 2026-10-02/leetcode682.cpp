@@ -4,7 +4,7 @@
 #include<string>
 class Solution{
     public:
-    int calPoint(std::vector<std::string> operation){
+    int calPoints(std::vector<std::string> operation){
         std::vector<int> scores;
         for(const std::string& op:operation){
             if(op=="+"){
@@ -29,6 +29,6 @@ class Solution{
 int main(){
     std::vector<std::string> operation={"5","2","C","D","+"};
     Solution A;
-    std::cout<<A.calPoint(operation)<<'\n';
+    std::cout<<A.calPoints(operation)<<'\n';
     return 0;
 }
