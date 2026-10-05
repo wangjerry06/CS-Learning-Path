@@ -74,6 +74,10 @@ CS-Learning-Path/
 │   ├── leetcode1041.cpp     # LeetCode 1041. Robot Bounded In Circle
 │   ├── leetcode1672.cpp     # LeetCode 1672. Richest Customer Wealth
 │   └── 2026-10-04.md        # 当天笔记
+├── 2026-10-05/
+│   ├── leetcode54.cpp       # LeetCode 54. Spiral Matrix
+│   ├── leetcode1572.cpp     # LeetCode 1572. Matrix Diagonal Sum
+│   └── 2026-10-05.md        # 当天笔记
 ├── .vscode/
 │   └── tasks.json           # VS Code 构建任务（clang++）
 ├── .gitignore
@@ -113,6 +117,7 @@ printf 'ab\ncde\n' | ./leetcode1768   # 或者管道喂输入
 | 2026-10-02 | [682. Baseball Game](https://leetcode.com/problems/baseball-game/)、[709. To Lower Case](https://leetcode.com/problems/to-lower-case/) |
 | 2026-10-03 | [1275. Find Winner on a Tic Tac Toe Game](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/)、[657. Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/) |
 | 2026-10-04 | [1041. Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle/)、[1672. Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/) |
+| 2026-10-05 | [54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)、[1572. Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/) |
 
 ## 提交习惯
 
