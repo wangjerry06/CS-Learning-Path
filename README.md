@@ -78,6 +78,18 @@ CS-Learning-Path/
 │   ├── leetcode54.cpp       # LeetCode 54. Spiral Matrix
 │   ├── leetcode1572.cpp     # LeetCode 1572. Matrix Diagonal Sum
 │   └── 2026-10-05.md        # 当天笔记
+├── 2026-10-06/
+│   ├── leetcode73.cpp       # LeetCode 73. Set Matrix Zeroes
+│   ├── leetcode860.cpp      # LeetCode 860. Lemonade Change
+│   ├── leetcode1491.cpp     # LeetCode 1491. Average Salary Excluding the Minimum and Maximum Salary
+│   └── leetcode1523.cpp     # LeetCode 1523. Count Odd Numbers in an Interval Range
+├── 2026-10-07/
+│   ├── 2026-10-07.md        # 当天笔记
+│   ├── leetcode976.cpp      # LeetCode 976. Largest Perimeter Triangle
+│   ├── leetcode976_fixed.cpp    # 976 修正版（先排序 + 用 int 索引，避免 size_t 下溢）
+│   ├── leetcode1232.cpp     # LeetCode 1232. Check If It Is a Straight Line
+│   ├── leetcode1232_fixed.cpp   # 1232 修正版（交叉相乘判共线，避开除法）
+│   └── binary_decimal_convert.cpp  # 二进制 <-> 十进制互转示例（手动/bitset/to_chars/from_chars）
 ├── .vscode/
 │   └── tasks.json           # VS Code 构建任务（clang++）
 ├── .gitignore
@@ -118,6 +130,8 @@ printf 'ab\ncde\n' | ./leetcode1768   # 或者管道喂输入
 | 2026-10-03 | [1275. Find Winner on a Tic Tac Toe Game](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/)、[657. Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/) |
 | 2026-10-04 | [1041. Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle/)、[1672. Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/) |
 | 2026-10-05 | [54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)、[1572. Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/) |
+| 2026-10-06 | [73. Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)、[860. Lemonade Change](https://leetcode.com/problems/lemonade-change/)、[1491. Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/)、[1523. Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/) |
+| 2026-10-07 | [976. Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/)、[1232. Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/) |
 
 ## 提交习惯
 
