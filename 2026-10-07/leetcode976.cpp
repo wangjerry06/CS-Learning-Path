@@ -5,7 +5,7 @@
 //解题思路：给的数组中最优解一定是从大往小数的第一组符合条件的
 class Solution{
     public:
-    int largePerimeter(const std::vector<int>& nums){
+    int largePerimeter(std::vector<int>& nums){
         sort(nums.begin(),nums.end());
         size_t n=nums.size();
         for(size_t i=n-1;i>=2;--i){
