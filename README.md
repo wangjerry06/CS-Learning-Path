@@ -90,6 +90,10 @@ CS-Learning-Path/
 │   ├── leetcode1232.cpp     # LeetCode 1232. Check If It Is a Straight Line
 │   ├── leetcode1232_fixed.cpp   # 1232 修正版（交叉相乘判共线，避开除法）
 │   └── binary_decimal_convert.cpp  # 二进制 <-> 十进制互转示例（手动/bitset/to_chars/from_chars）
+├── 2026-10-08/
+│   ├── 2026-10-08.md        # 当天笔记
+│   ├── leetcode43.cpp       # LeetCode 43. Multiply Strings
+│   └── leetcode67.cpp       # LeetCode 67. Add Binary
 ├── .vscode/
 │   └── tasks.json           # VS Code 构建任务（clang++）
 ├── .gitignore
@@ -132,6 +136,7 @@ printf 'ab\ncde\n' | ./leetcode1768   # 或者管道喂输入
 | 2026-10-05 | [54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)、[1572. Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/) |
 | 2026-10-06 | [73. Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)、[860. Lemonade Change](https://leetcode.com/problems/lemonade-change/)、[1491. Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/)、[1523. Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/) |
 | 2026-10-07 | [976. Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/)、[1232. Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/) |
+| 2026-10-08 | [43. Multiply Strings](https://leetcode.com/problems/multiply-strings/)、[67. Add Binary](https://leetcode.com/problems/add-binary/) |
 
 ## 提交习惯
 
