@@ -97,6 +97,10 @@ CS-Learning-Path/
 ├── 2026-10-09/
 │   ├── leetcode50.cpp       # LeetCode 50. Pow(x, n)
 │   └── 2026-10-09.md        # 当天笔记
+├── 2026-10-10/
+│   ├── leetcode2.cpp        # LeetCode 2. Add Two Numbers
+│   ├── leetcode445.cpp      # LeetCode 445. Add Two Numbers II
+│   └── 2026-10-10.md        # 当天笔记
 ├── .vscode/
 │   └── tasks.json           # VS Code 构建任务（clang++）
 ├── .gitignore
@@ -141,6 +145,7 @@ printf 'ab\ncde\n' | ./leetcode1768   # 或者管道喂输入
 | 2026-10-07 | [976. Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/)、[1232. Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/) |
 | 2026-10-08 | [43. Multiply Strings](https://leetcode.com/problems/multiply-strings/)、[67. Add Binary](https://leetcode.com/problems/add-binary/) |
 | 2026-10-09 | [50. Pow(x, n)](https://leetcode.com/problems/powx-n/) |
+| 2026-10-10 | [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)、[445. Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/) |
 
 ## 提交习惯
 
