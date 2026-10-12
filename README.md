@@ -103,6 +103,10 @@ CS-Learning-Path/
 │   └── 2026-10-10.md        # 当天笔记
 ├── 2026-10-11/
 │   └── leetcode1.cpp        # LeetCode 1. Two Sum
+├── 2026-10-12/
+│   ├── 2026-10-12.md        # 当天笔记
+│   ├── leetcode49.cpp       # LeetCode 49. Group Anagrams（含自测 check() 用例）
+│   └── leetcode128.cpp      # LeetCode 128. Longest Consecutive Sequence
 ├── .vscode/
 │   └── tasks.json           # VS Code 构建任务（clang++）
 ├── .gitignore
@@ -149,6 +153,7 @@ printf 'ab\ncde\n' | ./leetcode1768   # 或者管道喂输入
 | 2026-10-09 | [50. Pow(x, n)](https://leetcode.com/problems/powx-n/) |
 | 2026-10-10 | [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)、[445. Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/) |
 | 2026-10-11 | [1. Two Sum](https://leetcode.com/problems/two-sum/) |
+| 2026-10-12 | [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)、[128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) |
 
 ## 提交习惯
 
