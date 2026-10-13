@@ -107,6 +107,9 @@ CS-Learning-Path/
 │   ├── 2026-10-12.md        # 当天笔记
 │   ├── leetcode49.cpp       # LeetCode 49. Group Anagrams（含自测 check() 用例）
 │   └── leetcode128.cpp      # LeetCode 128. Longest Consecutive Sequence
+├── 2026-10-13/
+│   ├── 2026-10-13.md        # 当天笔记
+│   └── leetcode11.cpp       # LeetCode 11. Container With Most Water
 ├── .vscode/
 │   └── tasks.json           # VS Code 构建任务（clang++）
 ├── .gitignore
@@ -154,6 +157,7 @@ printf 'ab\ncde\n' | ./leetcode1768   # 或者管道喂输入
 | 2026-10-10 | [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)、[445. Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/) |
 | 2026-10-11 | [1. Two Sum](https://leetcode.com/problems/two-sum/) |
 | 2026-10-12 | [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)、[128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) |
+| 2026-10-13 | [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) |
 
 ## 提交习惯
 
