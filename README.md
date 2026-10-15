@@ -111,7 +111,7 @@ CS-Learning-Path/
 │   ├── 2026-10-13.md        # 当天笔记
 │   └── leetcode11.cpp       # LeetCode 11. Container With Most Water
 ├── 2026-10-14/
-│   ├── 1016-10-14.md        # 当天笔记（文件名照实在库）
+│   ├── 2026-10-14.md        # 当天笔记
 │   ├── leetcode15.cpp       # LeetCode 15. 3Sum
 │   └── leetcode303.cpp      # LeetCode 303. Range Sum Query - Immutable
 ├── .vscode/
