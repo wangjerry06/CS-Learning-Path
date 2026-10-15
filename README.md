@@ -114,6 +114,9 @@ CS-Learning-Path/
 │   ├── 2026-10-14.md        # 当天笔记
 │   ├── leetcode15.cpp       # LeetCode 15. 3Sum
 │   └── leetcode303.cpp      # LeetCode 303. Range Sum Query - Immutable
+├── 2026-10-15/
+│   ├── leetcode3.cpp        # LeetCode 3. Longest Substring Without Repeating Characters
+│   └── leetcode42.cpp       # LeetCode 42. Trapping Rain Water
 ├── .vscode/
 │   └── tasks.json           # VS Code 构建任务（clang++）
 ├── .gitignore
@@ -163,6 +166,7 @@ printf 'ab\ncde\n' | ./leetcode1768   # 或者管道喂输入
 | 2026-10-12 | [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)、[128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) |
 | 2026-10-13 | [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) |
 | 2026-10-14 | [15. 3Sum](https://leetcode.com/problems/3sum/)、[303. Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) |
+| 2026-10-15 | [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)、[42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) |
 
 ## 提交习惯
 
