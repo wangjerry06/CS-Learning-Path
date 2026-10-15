@@ -110,6 +110,10 @@ CS-Learning-Path/
 ├── 2026-10-13/
 │   ├── 2026-10-13.md        # 当天笔记
 │   └── leetcode11.cpp       # LeetCode 11. Container With Most Water
+├── 2026-10-14/
+│   ├── 1016-10-14.md        # 当天笔记（文件名照实在库）
+│   ├── leetcode15.cpp       # LeetCode 15. 3Sum
+│   └── leetcode303.cpp      # LeetCode 303. Range Sum Query - Immutable
 ├── .vscode/
 │   └── tasks.json           # VS Code 构建任务（clang++）
 ├── .gitignore
@@ -158,6 +162,7 @@ printf 'ab\ncde\n' | ./leetcode1768   # 或者管道喂输入
 | 2026-10-11 | [1. Two Sum](https://leetcode.com/problems/two-sum/) |
 | 2026-10-12 | [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)、[128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) |
 | 2026-10-13 | [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) |
+| 2026-10-14 | [15. 3Sum](https://leetcode.com/problems/3sum/)、[303. Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) |
 
 ## 提交习惯
 
