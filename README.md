@@ -117,6 +117,8 @@ CS-Learning-Path/
 ├── 2026-10-15/
 │   ├── leetcode3.cpp        # LeetCode 3. Longest Substring Without Repeating Characters
 │   └── leetcode42.cpp       # LeetCode 42. Trapping Rain Water
+├── 2026-10-16/
+│   └── leetcode438.cpp      # LeetCode 438. Find All Anagrams in a String
 ├── .vscode/
 │   └── tasks.json           # VS Code 构建任务（clang++）
 ├── .gitignore
@@ -167,6 +169,7 @@ printf 'ab\ncde\n' | ./leetcode1768   # 或者管道喂输入
 | 2026-10-13 | [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) |
 | 2026-10-14 | [15. 3Sum](https://leetcode.com/problems/3sum/)、[303. Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) |
 | 2026-10-15 | [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)、[42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) |
+| 2026-10-16 | [438. Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) |
 
 ## 提交习惯
 
