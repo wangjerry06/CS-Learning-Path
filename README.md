@@ -121,6 +121,9 @@ CS-Learning-Path/
 │   └── leetcode438.cpp      # LeetCode 438. Find All Anagrams in a String
 ├── 2026-10-17/
 │   └── leetcode560.cpp      # LeetCode 560. Subarray Sum Equals K
+├── 2026-10-18/
+│   ├── leetcode239.cpp      # LeetCode 239. Sliding Window Maximum
+│   └── 2026-10-18.md        # 当天笔记
 ├── .vscode/
 │   └── tasks.json           # VS Code 构建任务（clang++）
 ├── .gitignore
@@ -173,6 +176,7 @@ printf 'ab\ncde\n' | ./leetcode1768   # 或者管道喂输入
 | 2026-10-15 | [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)、[42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) |
 | 2026-10-16 | [438. Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) |
 | 2026-10-17 | [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) |
+| 2026-10-18 | [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) |
 
 ## 提交习惯
 
