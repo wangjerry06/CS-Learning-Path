@@ -124,6 +124,8 @@ CS-Learning-Path/
 ├── 2026-10-18/
 │   ├── leetcode239.cpp      # LeetCode 239. Sliding Window Maximum
 │   └── 2026-10-18.md        # 当天笔记
+├── 2026-10-19/
+│   └── LCR170.cpp           # LCR 170. 交易逆序对的总数
 ├── .vscode/
 │   └── tasks.json           # VS Code 构建任务（clang++）
 ├── .gitignore
@@ -177,6 +179,7 @@ printf 'ab\ncde\n' | ./leetcode1768   # 或者管道喂输入
 | 2026-10-16 | [438. Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) |
 | 2026-10-17 | [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) |
 | 2026-10-18 | [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) |
+| 2026-10-19 | [LCR 170. 交易逆序对的总数](https://leetcode.cn/problems/shu-zu-zhong-de-ni-xu-dui-lcof/) |
 
 ## 提交习惯
 
