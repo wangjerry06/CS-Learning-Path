@@ -126,6 +126,9 @@ CS-Learning-Path/
 │   └── 2026-10-18.md        # 当天笔记
 ├── 2026-10-19/
 │   └── LCR170.cpp           # LCR 170. 交易逆序对的总数
+├── 2026-10-20/
+│   ├── leetcode88.cpp       # LeetCode 88. Merge Sorted Array
+│   └── p1256_副本.cpp       # 有效的括号（栈实现；文件名沿用旧名，内容为 LeetCode 20）
 ├── .vscode/
 │   └── tasks.json           # VS Code 构建任务（clang++）
 ├── .gitignore
@@ -180,6 +183,7 @@ printf 'ab\ncde\n' | ./leetcode1768   # 或者管道喂输入
 | 2026-10-17 | [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) |
 | 2026-10-18 | [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) |
 | 2026-10-19 | [LCR 170. 交易逆序对的总数](https://leetcode.cn/problems/shu-zu-zhong-de-ni-xu-dui-lcof/) |
+| 2026-10-20 | [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)、[20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) |
 
 ## 提交习惯
 
