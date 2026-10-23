@@ -138,6 +138,8 @@ CS-Learning-Path/
 ├── 2026-10-22/
 │   ├── leetcode53.cpp       # LeetCode 53. Maximum Subarray（递归版，从末尾往前推以 i 结尾的最大和）
 │   └── leetcode53better.cpp # 53 的分治写法（Status 四元组 pushUp 合并）
+├── 2026-10-23/
+│   └── leetcode80.cpp       # LeetCode 80. Remove Duplicates from Sorted Array II
 ├── .vscode/
 │   └── tasks.json           # VS Code 构建任务（clang++）
 ├── .gitignore
@@ -195,6 +197,7 @@ printf 'ab\ncde\n' | ./leetcode1768   # 或者管道喂输入
 | 2026-10-20 | [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)、[20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) |
 | 2026-10-21 | [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)、[27. Remove Element](https://leetcode.com/problems/remove-element/)、[150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)、[1. Two Sum](https://leetcode.com/problems/two-sum/)、[LCR 170. 交易逆序对的总数](https://leetcode.cn/problems/shu-zu-zhong-de-ni-xu-dui-lcof/)（归并复写） |
 | 2026-10-22 | [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) |
+| 2026-10-23 | [80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) |
 
 ## 提交习惯
 
