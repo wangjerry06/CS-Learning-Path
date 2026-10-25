@@ -147,6 +147,8 @@ CS-Learning-Path/
 │   ├── leetcode98.cpp       # LeetCode 98. Validate Binary Search Tree
 │   ├── p1261.cpp            # LeetCode 701. Insert into a Binary Search Tree（ACM 输入版；文件名沿用旧名）
 │   └── p1261_fixed.cpp      # 701 修正版（1-based 哨兵 + 迭代下降；文件名沿用旧名）
+├── 2026-10-25/
+│   └── leetcode169.cpp      # LeetCode 169. Majority Element
 ├── .vscode/
 │   └── tasks.json           # VS Code 构建任务（clang++）
 ├── .gitignore
@@ -206,6 +208,7 @@ printf 'ab\ncde\n' | ./leetcode1768   # 或者管道喂输入
 | 2026-10-22 | [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) |
 | 2026-10-23 | [80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) |
 | 2026-10-24 | [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)、[226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)、[700. Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)、[98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)、[701. Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/) |
+| 2026-10-25 | [169. Majority Element](https://leetcode.com/problems/majority-element/) |
 
 ## 提交习惯
 
