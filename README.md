@@ -156,6 +156,8 @@ CS-Learning-Path/
 │   ├── leetcode121.cpp      # LeetCode 121. Best Time to Buy and Sell Stock（维护历史最低价）
 │   ├── leetcode189.cpp      # LeetCode 189. Rotate Array（三次 reverse）
 │   └── leetcode912.cpp      # LeetCode 912. Sort an Array（手写快排，取中位为 pivot）
+├── 2026-10-27/
+│   └── leetcode200.cpp      # LeetCode 200. Number of Islands（DFS 淹没岛屿）
 ├── .vscode/
 │   └── tasks.json           # VS Code 构建任务（clang++）
 ├── .gitignore
@@ -217,6 +219,7 @@ printf 'ab\ncde\n' | ./leetcode1768   # 或者管道喂输入
 | 2026-10-24 | [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)、[226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)、[700. Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)、[98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)、[701. Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/) |
 | 2026-10-25 | [169. Majority Element](https://leetcode.com/problems/majority-element/) |
 | 2026-10-26 | [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)、[50. Pow(x, n)](https://leetcode.com/problems/powx-n/)、[100. Same Tree](https://leetcode.com/problems/same-tree/)、[121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)、[189. Rotate Array](https://leetcode.com/problems/rotate-array/)、[912. Sort an Array](https://leetcode.com/problems/sort-an-array/) |
+| 2026-10-27 | [200. Number of Islands](https://leetcode.com/problems/number-of-islands/) |
 
 ## 提交习惯
 
