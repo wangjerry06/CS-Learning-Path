@@ -158,6 +158,9 @@ CS-Learning-Path/
 │   └── leetcode912.cpp      # LeetCode 912. Sort an Array（手写快排，取中位为 pivot）
 ├── 2026-10-27/
 │   └── leetcode200.cpp      # LeetCode 200. Number of Islands（DFS 淹没岛屿）
+├── 2026-10-28/
+│   ├── leetcode122.cpp      # LeetCode 122. Best Time to Buy and Sell Stock II（贪心，累加所有上涨区间）
+│   └── leetcode55.cpp       # LeetCode 55. Jump Game（维护最远可达下标）
 ├── .vscode/
 │   └── tasks.json           # VS Code 构建任务（clang++）
 ├── .gitignore
@@ -220,6 +223,7 @@ printf 'ab\ncde\n' | ./leetcode1768   # 或者管道喂输入
 | 2026-10-25 | [169. Majority Element](https://leetcode.com/problems/majority-element/) |
 | 2026-10-26 | [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)、[50. Pow(x, n)](https://leetcode.com/problems/powx-n/)、[100. Same Tree](https://leetcode.com/problems/same-tree/)、[121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)、[189. Rotate Array](https://leetcode.com/problems/rotate-array/)、[912. Sort an Array](https://leetcode.com/problems/sort-an-array/) |
 | 2026-10-27 | [200. Number of Islands](https://leetcode.com/problems/number-of-islands/) |
+| 2026-10-28 | [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)、[55. Jump Game](https://leetcode.com/problems/jump-game/) |
 
 ## 提交习惯
 
