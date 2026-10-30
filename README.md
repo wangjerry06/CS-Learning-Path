@@ -164,6 +164,8 @@ CS-Learning-Path/
 ├── 2026-10-29/
 │   ├── leetcode45.cpp       # LeetCode 45. Jump Game II（按层贪心，走到当前层边界才计数）
 │   └── leetcode274.cpp      # LeetCode 274. H-Index（排序后从高位往下数，遇不满足即停）
+├── 2026-10-30/
+│   └── leetcode380.cpp      # LeetCode 380. Insert Delete GetRandom O(1)（vector + 哈希表，删除时与末尾换位）
 ├── .vscode/
 │   └── tasks.json           # VS Code 构建任务（clang++）
 ├── .gitignore
@@ -228,6 +230,7 @@ printf 'ab\ncde\n' | ./leetcode1768   # 或者管道喂输入
 | 2026-10-27 | [200. Number of Islands](https://leetcode.com/problems/number-of-islands/) |
 | 2026-10-28 | [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)、[55. Jump Game](https://leetcode.com/problems/jump-game/) |
 | 2026-10-29 | [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/)、[274. H-Index](https://leetcode.com/problems/h-index/) |
+| 2026-10-30 | [380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) |
 
 ## 提交习惯
 
