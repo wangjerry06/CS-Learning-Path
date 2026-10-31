@@ -166,6 +166,8 @@ CS-Learning-Path/
 │   └── leetcode274.cpp      # LeetCode 274. H-Index（排序后从高位往下数，遇不满足即停）
 ├── 2026-10-30/
 │   └── leetcode380.cpp      # LeetCode 380. Insert Delete GetRandom O(1)（vector + 哈希表，删除时与末尾换位）
+├── 2026-10-31/
+│   └── leetcode238.cpp      # LeetCode 238. Product of Array Except Self（前缀/后缀乘积；分类讨论 0 的个数）
 ├── .vscode/
 │   └── tasks.json           # VS Code 构建任务（clang++）
 ├── .gitignore
@@ -231,6 +233,7 @@ printf 'ab\ncde\n' | ./leetcode1768   # 或者管道喂输入
 | 2026-10-28 | [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)、[55. Jump Game](https://leetcode.com/problems/jump-game/) |
 | 2026-10-29 | [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/)、[274. H-Index](https://leetcode.com/problems/h-index/) |
 | 2026-10-30 | [380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) |
+| 2026-10-31 | [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) |
 
 ## 提交习惯
 
