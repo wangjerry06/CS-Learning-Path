@@ -170,6 +170,8 @@ CS-Learning-Path/
 │   └── leetcode238.cpp      # LeetCode 238. Product of Array Except Self（前缀/后缀乘积；分类讨论 0 的个数）
 ├── 2026-11-1/
 │   └── leetcode134.cpp      # LeetCode 134. Gas Station（贪心：段内累计为负就换起点，欠账单独记账）
+├── 2026-11-02/
+│   └── leetcode135.cpp      # LeetCode 135. Candy（分发糖果；两次扫描取 L/R 各自满足一侧的较大值）
 ├── .vscode/
 │   └── tasks.json           # VS Code 构建任务（clang++）
 ├── .gitignore
@@ -237,6 +239,7 @@ printf 'ab\ncde\n' | ./leetcode1768   # 或者管道喂输入
 | 2026-10-30 | [380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) |
 | 2026-10-31 | [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) |
 | 2026-11-01 | [134. Gas Station](https://leetcode.com/problems/gas-station/) |
+| 2026-11-02 | [135. Candy](https://leetcode.com/problems/candy/) |
 
 ## 提交习惯
 
