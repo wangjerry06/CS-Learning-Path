@@ -128,13 +128,13 @@ CS-Learning-Path/
 │   └── LCR170.cpp           # LCR 170. 交易逆序对的总数
 ├── 2026-10-20/
 │   ├── leetcode88.cpp       # LeetCode 88. Merge Sorted Array
-│   └── p1256_副本.cpp       # 有效的括号（栈实现；文件名沿用旧名，内容为 LeetCode 20）
+│   └── leetcode20.cpp       # LeetCode 20. Valid Parentheses（栈匹配）
 ├── 2026-10-21/
 │   ├── leetcode26.cpp       # LeetCode 26. Remove Duplicates from Sorted Array
 │   ├── leetcode27.cpp       # LeetCode 27. Remove Element
-│   ├── p1257.cpp            # LeetCode 150. Evaluate Reverse Polish Notation（文件名沿用旧名）
-│   ├── p1258.cpp            # LeetCode 1. Two Sum（排序 + 双指针；文件名沿用旧名）
-│   └── p1259.cpp            # LCR 170. 交易逆序对的总数（归并统计逆序对，复写；文件名沿用旧名）
+│   ├── leetcode150.cpp      # LeetCode 150. Evaluate Reverse Polish Notation
+│   ├── leetcode1_two_pointers.cpp  # LeetCode 1. Two Sum（排序 + 双指针；另一种解法）
+│   └── LCR170_merge.cpp     # LCR 170. 交易逆序对的总数（归并统计逆序对，复写）
 ├── 2026-10-22/
 │   ├── leetcode53.cpp       # LeetCode 53. Maximum Subarray（递归版，从末尾往前推以 i 结尾的最大和）
 │   └── leetcode53better.cpp # 53 的分治写法（Status 四元组 pushUp 合并）
@@ -145,8 +145,8 @@ CS-Learning-Path/
 │   ├── leetcode226.cpp      # LeetCode 226. Invert Binary Tree
 │   ├── leetcode700.cpp      # LeetCode 700. Search in a Binary Search Tree
 │   ├── leetcode98.cpp       # LeetCode 98. Validate Binary Search Tree
-│   ├── p1261.cpp            # LeetCode 701. Insert into a Binary Search Tree（ACM 输入版；文件名沿用旧名）
-│   └── p1261_fixed.cpp      # 701 修正版（1-based 哨兵 + 迭代下降；文件名沿用旧名）
+│   ├── leetcode701.cpp      # LeetCode 701. Insert into a Binary Search Tree（ACM 输入版）
+│   └── leetcode701_fixed.cpp  # 701 修正版（1-based 哨兵 + 迭代下降）
 ├── 2026-10-25/
 │   └── leetcode169.cpp      # LeetCode 169. Majority Element
 ├── 2026-10-26/
