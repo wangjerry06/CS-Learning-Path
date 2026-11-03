@@ -172,6 +172,8 @@ CS-Learning-Path/
 │   └── leetcode134.cpp      # LeetCode 134. Gas Station（贪心：段内累计为负就换起点，欠账单独记账）
 ├── 2026-11-02/
 │   └── leetcode135.cpp      # LeetCode 135. Candy（分发糖果；两次扫描取 L/R 各自满足一侧的较大值）
+├── 2026-11-03/
+│   └── leetcode12.cpp       # LeetCode 12. Integer to Roman（贪心查表，从 1000 到 1 逐档减）
 ├── .vscode/
 │   └── tasks.json           # VS Code 构建任务（clang++）
 ├── .gitignore
@@ -240,6 +242,7 @@ printf 'ab\ncde\n' | ./leetcode1768   # 或者管道喂输入
 | 2026-10-31 | [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) |
 | 2026-11-01 | [134. Gas Station](https://leetcode.com/problems/gas-station/) |
 | 2026-11-02 | [135. Candy](https://leetcode.com/problems/candy/) |
+| 2026-11-03 | [12. Integer to Roman](https://leetcode.com/problems/integer-to-roman/) |
 
 ## 提交习惯
 
