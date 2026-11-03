@@ -168,7 +168,7 @@ CS-Learning-Path/
 │   └── leetcode380.cpp      # LeetCode 380. Insert Delete GetRandom O(1)（vector + 哈希表，删除时与末尾换位）
 ├── 2026-10-31/
 │   └── leetcode238.cpp      # LeetCode 238. Product of Array Except Self（前缀/后缀乘积；分类讨论 0 的个数）
-├── 2026-11-1/
+├── 2026-11-01/
 │   └── leetcode134.cpp      # LeetCode 134. Gas Station（贪心：段内累计为负就换起点，欠账单独记账）
 ├── 2026-11-02/
 │   └── leetcode135.cpp      # LeetCode 135. Candy（分发糖果；两次扫描取 L/R 各自满足一侧的较大值）
