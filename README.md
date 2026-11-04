@@ -174,6 +174,9 @@ CS-Learning-Path/
 │   └── leetcode135.cpp      # LeetCode 135. Candy（分发糖果；两次扫描取 L/R 各自满足一侧的较大值）
 ├── 2026-11-03/
 │   └── leetcode12.cpp       # LeetCode 12. Integer to Roman（贪心查表，从 1000 到 1 逐档减）
+├── 2026-11-04/
+│   ├── leetcode14.cpp       # LeetCode 14. Longest Common Prefix（纵向扫描，逐列比对所有串）
+│   └── leetcode14v2.cpp     # 14 的分治版（左右各求 LCP，再两两求公共前缀合并）
 ├── .vscode/
 │   └── tasks.json           # VS Code 构建任务（clang++）
 ├── .gitignore
@@ -243,6 +246,7 @@ printf 'ab\ncde\n' | ./leetcode1768   # 或者管道喂输入
 | 2026-11-01 | [134. Gas Station](https://leetcode.com/problems/gas-station/) |
 | 2026-11-02 | [135. Candy](https://leetcode.com/problems/candy/) |
 | 2026-11-03 | [12. Integer to Roman](https://leetcode.com/problems/integer-to-roman/) |
+| 2026-11-04 | [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) |
 
 ## 提交习惯
 
