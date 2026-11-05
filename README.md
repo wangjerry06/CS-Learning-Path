@@ -177,6 +177,9 @@ CS-Learning-Path/
 ├── 2026-11-04/
 │   ├── leetcode14.cpp       # LeetCode 14. Longest Common Prefix（纵向扫描，逐列比对所有串）
 │   └── leetcode14v2.cpp     # 14 的分治版（左右各求 LCP，再两两求公共前缀合并）
+├── 2026-11-05/
+│   ├── leetcode151.cpp      # LeetCode 151. Reverse Words in a String（istringstream 切词 + vector 倒序拼接）
+│   └── leetcode151v2.cpp    # 151 的原地版（先压掉多余空格，再整串反转、逐词反转）
 ├── .vscode/
 │   └── tasks.json           # VS Code 构建任务（clang++）
 ├── .gitignore
@@ -247,6 +250,7 @@ printf 'ab\ncde\n' | ./leetcode1768   # 或者管道喂输入
 | 2026-11-02 | [135. Candy](https://leetcode.com/problems/candy/) |
 | 2026-11-03 | [12. Integer to Roman](https://leetcode.com/problems/integer-to-roman/) |
 | 2026-11-04 | [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) |
+| 2026-11-05 | [151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) |
 
 ## 提交习惯
 
