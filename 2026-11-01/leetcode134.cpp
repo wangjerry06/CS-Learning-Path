@@ -12,7 +12,7 @@ int cancompleteCircuit(std::vector<int>& gas,std::vector<int>& cost){
             ow+=res+store;
             res=0;
             if(i<n-1){
-                start=n+1;
+                start=i+1;
             }
             else return -1;
             continue;
