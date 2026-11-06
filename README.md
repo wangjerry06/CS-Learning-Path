@@ -180,6 +180,8 @@ CS-Learning-Path/
 ├── 2026-11-05/
 │   ├── leetcode151.cpp      # LeetCode 151. Reverse Words in a String（istringstream 切词 + vector 倒序拼接）
 │   └── leetcode151v2.cpp    # 151 的原地版（先压掉多余空格，再整串反转、逐词反转）
+├── 2026-11-06/
+│   └── leetcode6.cpp        # LeetCode 6. ZigZag Conversion（按行收集，触顶触底掉头）
 ├── .vscode/
 │   └── tasks.json           # VS Code 构建任务（clang++）
 ├── .gitignore
@@ -251,6 +253,7 @@ printf 'ab\ncde\n' | ./leetcode1768   # 或者管道喂输入
 | 2026-11-03 | [12. Integer to Roman](https://leetcode.com/problems/integer-to-roman/) |
 | 2026-11-04 | [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) |
 | 2026-11-05 | [151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) |
+| 2026-11-06 | [6. ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/) |
 
 ## 提交习惯
 
