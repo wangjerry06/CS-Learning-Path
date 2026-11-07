@@ -182,6 +182,8 @@ CS-Learning-Path/
 │   └── leetcode151v2.cpp    # 151 的原地版（先压掉多余空格，再整串反转、逐词反转）
 ├── 2026-11-06/
 │   └── leetcode6.cpp        # LeetCode 6. ZigZag Conversion（按行收集，触顶触底掉头）
+├── 2026-11-07/
+│   └── leetcode125.cpp      # LeetCode 125. Valid Palindrome（双指针 + 原地转小写，跳过非字母数字）
 ├── .vscode/
 │   └── tasks.json           # VS Code 构建任务（clang++）
 ├── .gitignore
@@ -254,6 +256,7 @@ printf 'ab\ncde\n' | ./leetcode1768   # 或者管道喂输入
 | 2026-11-04 | [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) |
 | 2026-11-05 | [151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) |
 | 2026-11-06 | [6. ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/) |
+| 2026-11-07 | [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) |
 
 ## 提交习惯
 
