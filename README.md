@@ -186,6 +186,8 @@ CS-Learning-Path/
 │   └── leetcode125.cpp      # LeetCode 125. Valid Palindrome（双指针 + 原地转小写，跳过非字母数字）
 ├── 2026-11-08/
 │   └── leetcode392.cpp      # LeetCode 392. Is Subsequence（双指针贪心，s 走完即真）
+├── 2026-11-09/
+│   └── leetcode167.cpp      # LeetCode 167. Two Sum II - Input Array Is Sorted（相向双指针，和小于目标左移、大于目标右移）
 ├── .vscode/
 │   └── tasks.json           # VS Code 构建任务（clang++）
 ├── .gitignore
@@ -260,6 +262,7 @@ printf 'ab\ncde\n' | ./leetcode1768   # 或者管道喂输入
 | 2026-11-06 | [6. ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/) |
 | 2026-11-07 | [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) |
 | 2026-11-08 | [392. Is Subsequence](https://leetcode.com/problems/is-subsequence/) |
+| 2026-11-09 | [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) |
 
 ## 提交习惯
 
