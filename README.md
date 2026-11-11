@@ -190,6 +190,9 @@ CS-Learning-Path/
 │   └── leetcode167.cpp      # LeetCode 167. Two Sum II - Input Array Is Sorted（相向双指针，和小于目标左移、大于目标右移）
 ├── 2026-11-10/
 │   └── leetcode209.cpp      # LeetCode 209. Minimum Size Subarray Sum（分治：跨中点部分用双指针滑动窗口，O(n log n)）
+├── 2026-11-11/
+│   ├── leetcode68.cpp       # LeetCode 68. Text Justification（贪心定每行单词数 + 均分空格，余数从左侧间隙起各多给一个）
+│   └── leetcode68(official).cpp  # 68 的官方题解对照版（blank/join 两个辅助函数，分两段 join 再拼接）
 ├── .vscode/
 │   └── tasks.json           # VS Code 构建任务（clang++）
 ├── .gitignore
@@ -266,6 +269,7 @@ printf 'ab\ncde\n' | ./leetcode1768   # 或者管道喂输入
 | 2026-11-08 | [392. Is Subsequence](https://leetcode.com/problems/is-subsequence/) |
 | 2026-11-09 | [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) |
 | 2026-11-10 | [209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) |
+| 2026-11-11 | [68. Text Justification](https://leetcode.com/problems/text-justification/) |
 
 ## 提交习惯
 
