@@ -193,6 +193,9 @@ CS-Learning-Path/
 ├── 2026-11-11/
 │   ├── leetcode68.cpp       # LeetCode 68. Text Justification（贪心定每行单词数 + 均分空格，余数从左侧间隙起各多给一个）
 │   └── leetcode68(official).cpp  # 68 的官方题解对照版（blank/join 两个辅助函数，分两段 join 再拼接）
+├── 2026-11-12/
+│   ├── leetcode30.cpp       # LeetCode 30. Substring with Concatenation of All Words（按 w 取模分 offset，每组内定长滑窗 + 词频计数）
+│   └── leetcode76.cpp       # LeetCode 76. Minimum Window Substring（同向双指针，cnt 记已达标的字符种类数）
 ├── .vscode/
 │   └── tasks.json           # VS Code 构建任务（clang++）
 ├── .gitignore
@@ -270,6 +273,7 @@ printf 'ab\ncde\n' | ./leetcode1768   # 或者管道喂输入
 | 2026-11-09 | [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) |
 | 2026-11-10 | [209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) |
 | 2026-11-11 | [68. Text Justification](https://leetcode.com/problems/text-justification/) |
+| 2026-11-12 | [30. Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)、[76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) |
 
 ## 提交习惯
 
