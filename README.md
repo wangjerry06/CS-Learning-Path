@@ -198,6 +198,8 @@ CS-Learning-Path/
 │   └── leetcode76.cpp       # LeetCode 76. Minimum Window Substring（同向双指针，cnt 记已达标的字符种类数）
 ├── 2026-11-13/
 │   └── leetcode36.cpp       # LeetCode 36. Valid Sudoku（行/列/宫三个 9×9 计数表，一次遍历同时查重）
+├── 2026-11-14/
+│   └── leetcode48.cpp       # LeetCode 48. Rotate Image（先沿主对角线转置，再把每行左右翻转）
 ├── .vscode/
 │   └── tasks.json           # VS Code 构建任务（clang++）
 ├── .gitignore
@@ -277,6 +279,7 @@ printf 'ab\ncde\n' | ./leetcode1768   # 或者管道喂输入
 | 2026-11-11 | [68. Text Justification](https://leetcode.com/problems/text-justification/) |
 | 2026-11-12 | [30. Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)、[76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) |
 | 2026-11-13 | [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) |
+| 2026-11-14 | [48. Rotate Image](https://leetcode.com/problems/rotate-image/) |
 
 ## 提交习惯
 
