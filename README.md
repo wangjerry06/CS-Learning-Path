@@ -200,6 +200,8 @@ CS-Learning-Path/
 │   └── leetcode36.cpp       # LeetCode 36. Valid Sudoku（行/列/宫三个 9×9 计数表，一次遍历同时查重）
 ├── 2026-11-14/
 │   └── leetcode48.cpp       # LeetCode 48. Rotate Image（先沿主对角线转置，再把每行左右翻转）
+├── 2026-11-15/
+│   └── leetcode289.cpp      # LeetCode 289. Game of Life（用 2/3 标记状态变化：活转死记 2、死转活记 3，第二遍扫还原）
 ├── .vscode/
 │   └── tasks.json           # VS Code 构建任务（clang++）
 ├── .gitignore
@@ -280,6 +282,7 @@ printf 'ab\ncde\n' | ./leetcode1768   # 或者管道喂输入
 | 2026-11-12 | [30. Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)、[76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) |
 | 2026-11-13 | [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) |
 | 2026-11-14 | [48. Rotate Image](https://leetcode.com/problems/rotate-image/) |
+| 2026-11-15 | [289. Game of Life](https://leetcode.com/problems/game-of-life/) |
 
 ## 提交习惯
 
