@@ -202,6 +202,9 @@ CS-Learning-Path/
 │   └── leetcode48.cpp       # LeetCode 48. Rotate Image（先沿主对角线转置，再把每行左右翻转）
 ├── 2026-11-15/
 │   └── leetcode289.cpp      # LeetCode 289. Game of Life（用 2/3 标记状态变化：活转死记 2、死转活记 3，第二遍扫还原）
+├── 2026-11-16/
+│   ├── leetcode205.cpp      # LeetCode 205. Isomorphic Strings（双向哈希表：s→t 与 t→s 各查一遍，防多对一）
+│   └── leetcode383.cpp      # LeetCode 383. Ransom Note（magazine 建字符计数表，逐字符扣减，缺了就 false）
 ├── .vscode/
 │   └── tasks.json           # VS Code 构建任务（clang++）
 ├── .gitignore
@@ -283,6 +286,7 @@ printf 'ab\ncde\n' | ./leetcode1768   # 或者管道喂输入
 | 2026-11-13 | [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) |
 | 2026-11-14 | [48. Rotate Image](https://leetcode.com/problems/rotate-image/) |
 | 2026-11-15 | [289. Game of Life](https://leetcode.com/problems/game-of-life/) |
+| 2026-11-16 | [205. Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)、[383. Ransom Note](https://leetcode.com/problems/ransom-note/) |
 
 ## 提交习惯
 
