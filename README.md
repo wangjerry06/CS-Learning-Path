@@ -205,6 +205,9 @@ CS-Learning-Path/
 ├── 2026-11-16/
 │   ├── leetcode205.cpp      # LeetCode 205. Isomorphic Strings（双向哈希表：s→t 与 t→s 各查一遍，防多对一）
 │   └── leetcode383.cpp      # LeetCode 383. Ransom Note（magazine 建字符计数表，逐字符扣减，缺了就 false）
+├── 2026-11-17/
+│   ├── leetcode202.cpp      # LeetCode 202. Happy Number（递归 + unordered_set 记已见数，撞环即假，是 1 即真）
+│   └── leetcode290.cpp      # LeetCode 290. Word Pattern（istringstream 切词，双向哈希表：字符→词与词→字符各查一遍）
 ├── .vscode/
 │   └── tasks.json           # VS Code 构建任务（clang++）
 ├── .gitignore
@@ -287,6 +290,7 @@ printf 'ab\ncde\n' | ./leetcode1768   # 或者管道喂输入
 | 2026-11-14 | [48. Rotate Image](https://leetcode.com/problems/rotate-image/) |
 | 2026-11-15 | [289. Game of Life](https://leetcode.com/problems/game-of-life/) |
 | 2026-11-16 | [205. Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)、[383. Ransom Note](https://leetcode.com/problems/ransom-note/) |
+| 2026-11-17 | [202. Happy Number](https://leetcode.com/problems/happy-number/)、[290. Word Pattern](https://leetcode.com/problems/word-pattern/) |
 
 ## 提交习惯
 
