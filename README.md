@@ -208,6 +208,9 @@ CS-Learning-Path/
 ├── 2026-11-17/
 │   ├── leetcode202.cpp      # LeetCode 202. Happy Number（递归 + unordered_set 记已见数，撞环即假，是 1 即真）
 │   └── leetcode290.cpp      # LeetCode 290. Word Pattern（istringstream 切词，双向哈希表：字符→词与词→字符各查一遍）
+├── 2026-11-18/
+│   ├── leetcode219.cpp      # LeetCode 219. Contains Duplicate II（哈希表记每个数的最近下标，距离超出 k 就刷新成当前下标）
+│   └── leetcode228.cpp      # LeetCode 228. Summary Ranges（双指针找连续段，单元素段只写一个数，多元素写 a->b）
 ├── .vscode/
 │   └── tasks.json           # VS Code 构建任务（clang++）
 ├── .gitignore
@@ -291,6 +294,7 @@ printf 'ab\ncde\n' | ./leetcode1768   # 或者管道喂输入
 | 2026-11-15 | [289. Game of Life](https://leetcode.com/problems/game-of-life/) |
 | 2026-11-16 | [205. Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)、[383. Ransom Note](https://leetcode.com/problems/ransom-note/) |
 | 2026-11-17 | [202. Happy Number](https://leetcode.com/problems/happy-number/)、[290. Word Pattern](https://leetcode.com/problems/word-pattern/) |
+| 2026-11-18 | [219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)、[228. Summary Ranges](https://leetcode.com/problems/summary-ranges/) |
 
 ## 提交习惯
 
