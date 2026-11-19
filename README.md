@@ -211,6 +211,8 @@ CS-Learning-Path/
 ├── 2026-11-18/
 │   ├── leetcode219.cpp      # LeetCode 219. Contains Duplicate II（哈希表记每个数的最近下标，距离超出 k 就刷新成当前下标）
 │   └── leetcode228.cpp      # LeetCode 228. Summary Ranges（双指针找连续段，单元素段只写一个数，多元素写 a->b）
+├── 2026-11-19/
+│   └── leetcode56.cpp       # LeetCode 56. Merge Intervals（先按左端排序，再用 tail 往右吞并：只要下一个左端不超过当前最右端点就合并）
 ├── .vscode/
 │   └── tasks.json           # VS Code 构建任务（clang++）
 ├── .gitignore
@@ -295,6 +297,7 @@ printf 'ab\ncde\n' | ./leetcode1768   # 或者管道喂输入
 | 2026-11-16 | [205. Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)、[383. Ransom Note](https://leetcode.com/problems/ransom-note/) |
 | 2026-11-17 | [202. Happy Number](https://leetcode.com/problems/happy-number/)、[290. Word Pattern](https://leetcode.com/problems/word-pattern/) |
 | 2026-11-18 | [219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)、[228. Summary Ranges](https://leetcode.com/problems/summary-ranges/) |
+| 2026-11-19 | [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) |
 
 ## 提交习惯
 
