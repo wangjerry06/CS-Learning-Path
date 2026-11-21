@@ -213,6 +213,10 @@ CS-Learning-Path/
 │   └── leetcode228.cpp      # LeetCode 228. Summary Ranges（双指针找连续段，单元素段只写一个数，多元素写 a->b）
 ├── 2026-11-19/
 │   └── leetcode56.cpp       # LeetCode 56. Merge Intervals（先按左端排序，再用 tail 往右吞并：只要下一个左端不超过当前最右端点就合并）
+├── 2026-11-20/
+│   ├── leetcode57.cpp       # LeetCode 57. Insert Interval（一次遍历，hasInsert 标记是否已插入：遇上第一个右端超过新区间左端的旧区间就并入并向右吞并，走完还没插就补在末尾）
+│   ├── leetcode57(fail).cpp # 57 的失败版对照（分支把「未插入」与「已插入」交错处理，漏掉新区间落在末尾的情况）
+│   └── leetcode452.cpp      # LeetCode 452. Minimum Number of Arrows to Burst Balloons（按左端排序，每簇维护左右端交集：左取 max、右取 min，交集空了才开新簇，簇数即最少箭数）
 ├── .vscode/
 │   └── tasks.json           # VS Code 构建任务（clang++）
 ├── .gitignore
@@ -298,6 +302,7 @@ printf 'ab\ncde\n' | ./leetcode1768   # 或者管道喂输入
 | 2026-11-17 | [202. Happy Number](https://leetcode.com/problems/happy-number/)、[290. Word Pattern](https://leetcode.com/problems/word-pattern/) |
 | 2026-11-18 | [219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)、[228. Summary Ranges](https://leetcode.com/problems/summary-ranges/) |
 | 2026-11-19 | [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) |
+| 2026-11-20 | [57. Insert Interval](https://leetcode.com/problems/insert-interval/)、[452. Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) |
 
 ## 提交习惯
 
