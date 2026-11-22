@@ -219,6 +219,9 @@ CS-Learning-Path/
 │   └── leetcode452.cpp      # LeetCode 452. Minimum Number of Arrows to Burst Balloons（按左端排序，每簇维护左右端交集：左取 max、右取 min，交集空了才开新簇，簇数即最少箭数）
 ├── 2026-11-21/
 │   └── leetcode20.cpp       # LeetCode 20. Valid Parentheses（栈：左括号入栈，右括号与栈顶比对，匹配就弹出，不匹配或空栈即 false，走完栈空才算通过）
+├── 2026-11-22/
+│   ├── leetcode71.cpp       # LeetCode 71. Simplify Path（按 / 切词，"." 跳过、".." 弹栈、其余入栈，最后逐段拼回 /a/b 形式）
+│   └── leetcode71(fail).cpp # 71 的失败版对照（逐字符 deque 状态机："/../" 把 deque 弹空后再 back() 直接 SEGV，".." 也没真正弹栈）
 ├── .vscode/
 │   └── tasks.json           # VS Code 构建任务（clang++）
 ├── .gitignore
@@ -306,6 +309,7 @@ printf 'ab\ncde\n' | ./leetcode1768   # 或者管道喂输入
 | 2026-11-19 | [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) |
 | 2026-11-20 | [57. Insert Interval](https://leetcode.com/problems/insert-interval/)、[452. Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) |
 | 2026-11-21 | [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) |
+| 2026-11-22 | [71. Simplify Path](https://leetcode.com/problems/simplify-path/) |
 
 ## 提交习惯
 
