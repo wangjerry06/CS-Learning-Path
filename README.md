@@ -222,6 +222,10 @@ CS-Learning-Path/
 ├── 2026-11-22/
 │   ├── leetcode71.cpp       # LeetCode 71. Simplify Path（按 / 切词，"." 跳过、".." 弹栈、其余入栈，最后逐段拼回 /a/b 形式）
 │   └── leetcode71(fail).cpp # 71 的失败版对照（逐字符 deque 状态机："/../" 把 deque 弹空后再 back() 直接 SEGV，".." 也没真正弹栈）
+├── 2026-11-23/
+│   ├── leetcode150.cpp        # LeetCode 150. Evaluate Reverse Polish Notation（栈：不是四则运算符就当数字 stoi 入栈，是运算符就先弹右操作数再弹左操作数，算完压回）
+│   ├── leetcode155.cpp        # LeetCode 155. Min Stack（手写链表，每个节点自带"入栈时到它的最小值" minVal，push 时与栈顶 minVal 取 min，pop 直接摘头并 delete）
+│   └── leetcode155(simple).cpp # 155 的简化版（双栈同步：数据栈 + 最小栈，最小栈先垫 INT_MAX，每次 push min(旧栈顶, 新值)，pop 两边一起弹）
 ├── .vscode/
 │   └── tasks.json           # VS Code 构建任务（clang++）
 ├── .gitignore
@@ -310,6 +314,7 @@ printf 'ab\ncde\n' | ./leetcode1768   # 或者管道喂输入
 | 2026-11-20 | [57. Insert Interval](https://leetcode.com/problems/insert-interval/)、[452. Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) |
 | 2026-11-21 | [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) |
 | 2026-11-22 | [71. Simplify Path](https://leetcode.com/problems/simplify-path/) |
+| 2026-11-23 | [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)、[155. Min Stack](https://leetcode.com/problems/min-stack/) |
 
 ## 提交习惯
 
