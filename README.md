@@ -226,7 +226,7 @@ CS-Learning-Path/
 │   ├── leetcode150.cpp        # LeetCode 150. Evaluate Reverse Polish Notation（栈：不是四则运算符就当数字 stoi 入栈，是运算符就先弹右操作数再弹左操作数，算完压回）
 │   ├── leetcode155.cpp        # LeetCode 155. Min Stack（手写链表，每个节点自带"入栈时到它的最小值" minVal，push 时与栈顶 minVal 取 min，pop 直接摘头并 delete）
 │   └── leetcode155(simple).cpp # 155 的简化版（双栈同步：数据栈 + 最小栈，最小栈先垫 INT_MAX，每次 push min(旧栈顶, 新值)，pop 两边一起弹）
-├── 2026-11-24.cpp/            # ⚠️ 目录名误带 .cpp 后缀（建文件时建成了文件夹），实际就是 2026-11-24 当天目录
+├── 2026-11-24/
 │   └── leetcode307.cpp        # LeetCode 307. Range Sum Query - Mutable（线段树：build 建树、change 沿路径改并回溯重算、range 分三种情况——全在左、全在右、跨中点各查一半相加；节点编号从 1 起，避免 node*2 在 0 处撞上父节点自己）
 ├── .vscode/
 │   └── tasks.json           # VS Code 构建任务（clang++）
