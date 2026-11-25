@@ -228,6 +228,8 @@ CS-Learning-Path/
 │   └── leetcode155(simple).cpp # 155 的简化版（双栈同步：数据栈 + 最小栈，最小栈先垫 INT_MAX，每次 push min(旧栈顶, 新值)，pop 两边一起弹）
 ├── 2026-11-24/
 │   └── leetcode307.cpp        # LeetCode 307. Range Sum Query - Mutable（线段树：build 建树、change 沿路径改并回溯重算、range 分三种情况——全在左、全在右、跨中点各查一半相加；节点编号从 1 起，避免 node*2 在 0 处撞上父节点自己）
+├── 2026-11-25/
+│   └── leetcode138.cpp        # LeetCode 138. Copy List with Random Pointer（哈希表记忆化 DFS：遇到 map 里没登记过的节点就 new 副本并登记，再递归 next 与 random，靠 map 保证每个节点只复制一次、random 指向的副本能对上号）
 ├── .vscode/
 │   └── tasks.json           # VS Code 构建任务（clang++）
 ├── .gitignore
@@ -318,6 +320,7 @@ printf 'ab\ncde\n' | ./leetcode1768   # 或者管道喂输入
 | 2026-11-22 | [71. Simplify Path](https://leetcode.com/problems/simplify-path/) |
 | 2026-11-23 | [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)、[155. Min Stack](https://leetcode.com/problems/min-stack/) |
 | 2026-11-24 | [307. Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/) |
+| 2026-11-25 | [138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) |
 
 ## 提交习惯
 
