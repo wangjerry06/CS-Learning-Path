@@ -230,6 +230,8 @@ CS-Learning-Path/
 │   └── leetcode307.cpp        # LeetCode 307. Range Sum Query - Mutable（线段树：build 建树、change 沿路径改并回溯重算、range 分三种情况——全在左、全在右、跨中点各查一半相加；节点编号从 1 起，避免 node*2 在 0 处撞上父节点自己）
 ├── 2026-11-25/
 │   └── leetcode138.cpp        # LeetCode 138. Copy List with Random Pointer（哈希表记忆化 DFS：遇到 map 里没登记过的节点就 new 副本并登记，再递归 next 与 random，靠 map 保证每个节点只复制一次、random 指向的副本能对上号）
+├── 2026-11-26/
+│   └── leetcode92.cpp         # LeetCode 92. Reverse Linked List II（dummy 哨兵走到 left 前驱、再走到 right 端点，把区间尾巴切断后整段 reverse，再用尾节点缝回后继；dummy 让 left==1 不需要特判）
 ├── .vscode/
 │   └── tasks.json           # VS Code 构建任务（clang++）
 ├── .gitignore
@@ -321,6 +323,7 @@ printf 'ab\ncde\n' | ./leetcode1768   # 或者管道喂输入
 | 2026-11-23 | [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)、[155. Min Stack](https://leetcode.com/problems/min-stack/) |
 | 2026-11-24 | [307. Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/) |
 | 2026-11-25 | [138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) |
+| 2026-11-26 | [92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) |
 
 ## 提交习惯
 
