@@ -233,7 +233,7 @@ CS-Learning-Path/
 ├── 2026-11-26/
 │   └── leetcode92.cpp         # LeetCode 92. Reverse Linked List II（dummy 哨兵走到 left 前驱、再走到 right 端点，把区间尾巴切断后整段 reverse，再用尾节点缝回后继；dummy 让 left==1 不需要特判）
 ├── 2026-11-27/
-│   └── leetcode224.cpp        # LeetCode 224. Basic Calculator（数字、运算符、括号统一转字符串压进一个栈，遇到 ')' 先 pop 掉再递归算内层、算完 pop '(' 把结果转回字符串压栈；累加时按「栈顶运算符在数字左边 → 决定当前数字正负号」处理，避开倒序读栈的右结合陷阱。⚠️ 数字解析 substr(0, i+1) 的起点写死 0、长度多算一位，实测越界读 + stoi 抛异常，应为 start=i / (i-start)）
+│   └── leetcode224.cpp        # LeetCode 224. Basic Calculator（数字、运算符、括号统一转字符串压进一个栈，遇到 ')' 先 pop 掉再递归算内层、算完 pop '(' 把结果转回字符串压栈；累加时按「栈顶运算符在数字左边 → 决定当前数字正负号」处理，避开倒序读栈的右结合陷阱。数字解析 substr(start, i-start) 只切当前这一段；全程 long long 累加、出口强转 int，防中途中溢出）
 ├── .vscode/
 │   └── tasks.json           # VS Code 构建任务（clang++）
 ├── .gitignore
