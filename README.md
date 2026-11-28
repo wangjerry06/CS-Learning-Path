@@ -234,6 +234,8 @@ CS-Learning-Path/
 │   └── leetcode92.cpp         # LeetCode 92. Reverse Linked List II（dummy 哨兵走到 left 前驱、再走到 right 端点，把区间尾巴切断后整段 reverse，再用尾节点缝回后继；dummy 让 left==1 不需要特判）
 ├── 2026-11-27/
 │   └── leetcode224.cpp        # LeetCode 224. Basic Calculator（数字、运算符、括号统一转字符串压进一个栈，遇到 ')' 先 pop 掉再递归算内层、算完 pop '(' 把结果转回字符串压栈；累加时按「栈顶运算符在数字左边 → 决定当前数字正负号」处理，避开倒序读栈的右结合陷阱。数字解析 substr(start, i-start) 只切当前这一段；全程 long long 累加、出口强转 int，防中途中溢出）
+├── 2026-11-28/
+│   └── leetcode82.cpp         # LeetCode 82. Remove Duplicates from Sorted List II（dummy 哨兵挂在 head 前，prev 只在确认「下一个节点不重复」后才前移；一旦 cur 与 cur->next 同值就记下该值，把整段同值节点连删干净再接回 prev->next，删完不移动 prev，留着再校验下一个）
 ├── .vscode/
 │   └── tasks.json           # VS Code 构建任务（clang++）
 ├── .gitignore
@@ -327,6 +329,7 @@ printf 'ab\ncde\n' | ./leetcode1768   # 或者管道喂输入
 | 2026-11-25 | [138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) |
 | 2026-11-26 | [92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) |
 | 2026-11-27 | [224. Basic Calculator](https://leetcode.com/problems/basic-calculator/) |
+| 2026-11-28 | [82. Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) |
 
 ## 提交习惯
 
